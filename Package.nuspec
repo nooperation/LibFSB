@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SanTools.LibFSB</id>
+    <version>$version$</version>
+    <authors>NoOperation</authors>
+    <owners>NoOperation</owners>
+    <licenseUrl>https://github.com/nooperation/LibFSB/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/nooperation/LibFSB/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Basic FSB tools</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>FSB SanTools native</tags>
+  </metadata>
+  <files>
+    <file src="build\**" target="build" />
+    <file src="x64\Release\LibFSB.dll" target="contentFiles\x64\LibFSB.dll" />
+    <file src="x64\Release\fmod64.dll" target="contentFiles\x64\fmod64.dll" />
+  </files>
+</package>

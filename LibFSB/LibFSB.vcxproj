@@ -152,6 +152,11 @@
   <ItemGroup>
     <ClInclude Include="LibFSB.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ThirdParty\fmod64.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
