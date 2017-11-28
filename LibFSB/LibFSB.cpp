@@ -1,5 +1,6 @@
 #include <Windows.h>
 #include <iostream>
+#include "LibFSB.h"
 
 #include <lowlevel\inc\fmod.hpp>
 #include <lowlevel\inc\fmod_errors.h>
